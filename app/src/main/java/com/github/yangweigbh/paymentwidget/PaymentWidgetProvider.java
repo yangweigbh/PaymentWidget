@@ -24,15 +24,15 @@ public class PaymentWidgetProvider extends AppWidgetProvider {
 
             RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.main_layout);
 
-            views.setOnClickPendingIntent(R.id.wechat_barcode, getWechatBarcodeIntent(context));
+            views.setOnClickPendingIntent(R.id.item1, getWechatBarcodeIntent(context));
 
-            views.setOnClickPendingIntent(R.id.alipay_barcode, getAlipayBarcodeIntent(context));
+            views.setOnClickPendingIntent(R.id.item2, getAlipayBarcodeIntent(context));
 
-            views.setOnClickPendingIntent(R.id.alipay_paycode, getAlipayPaycodeIntent(context));
+            views.setOnClickPendingIntent(R.id.item3, getAlipayPaycodeIntent(context));
 
-            views.setImageViewResource(R.id.icon1, R.drawable.ic_launcher);
-            views.setImageViewResource(R.id.icon2, R.drawable.ic_launcher);
-            views.setImageViewResource(R.id.icon3, R.drawable.ic_launcher);
+            views.setImageViewResource(R.id.icon1, R.drawable.wx_shoukuan);
+            views.setImageViewResource(R.id.icon2, R.drawable.alipay_scan);
+            views.setImageViewResource(R.id.icon3, R.drawable.alipay_fukuan);
 
             // Tell the AppWidgetManager to perform an update on the current app widget
             appWidgetManager.updateAppWidget(appWidgetId, views);
