@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PaymentWidget</string>
+    <string name="app_name">快捷支付</string>
     <string name="wechat_barcode">微信\n扫一扫</string>
     <string name="alipay_barcode">支付宝\n扫一扫</string>
     <string name="alipay_paycode">支付宝\n支付码</string>
