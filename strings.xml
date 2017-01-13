@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PaymentWidget</string>
+    <string name="wechat_barcode">Wechat Barcode</string>
+    <string name="alipay_barcode">Alipay Barcode</string>
+    <string name="alipay_paycode">Alipay Paycode</string>
+</resources>
